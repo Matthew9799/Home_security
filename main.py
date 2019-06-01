@@ -111,7 +111,7 @@ while rval:
                     print("Match found at Frame: ",z)
                     break
 
-            if(now-email).total_seconds() > 120 and name1 != "Matt Lewis":
+            if(now-email).total_seconds() > 120 and name1 != "Your Name":
                 try:
                     s = smtplib.SMTP_SSL('smtp.gmail.com',465)
                     s.ehlo()
