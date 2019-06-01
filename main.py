@@ -123,7 +123,7 @@ while rval:
                     else:
                         response += response_1+now.strftime('%m/%d/%Y/%H')
 
-                    s.sendmail("mathius934@gmail.com", "mathius934@gmail.com",response)
+                    s.sendmail("Send address", "Recieve address",response)
                     s.quit()
                     email = datetime.datetime.now()
 
